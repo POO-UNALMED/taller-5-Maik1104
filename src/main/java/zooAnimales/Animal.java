@@ -51,11 +51,11 @@ public class Animal {
 
 	private Zona zona;
 	
-	Animal(){
+	public Animal(){
 		totalAnimales++;
 	}
 	
-	Animal(String nombre, int edad, String habitat, String genero){
+	public Animal(String nombre, int edad, String habitat, String genero){
 		this.nombre = nombre;
 		this.edad = edad;
 		this.habitat = habitat;

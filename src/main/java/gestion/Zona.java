@@ -7,11 +7,11 @@ public class Zona {
 	private Zoologico zoo;
 	private List<Animal> animales= new ArrayList<Animal>();
 	
-	Zona(){
+	public Zona(){
 	}
 	
 	
-	Zona(String nombre, Zoologico zoo){
+	public Zona(String nombre, Zoologico zoo){
 		this.nombre = nombre;
 		this.zoo = zoo;
 	}
