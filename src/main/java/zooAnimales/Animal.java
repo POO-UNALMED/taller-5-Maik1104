@@ -83,6 +83,14 @@ public class Animal {
 	public String movimiento(){
 		return "desplazarse";
 	}
+
+	public static int getTotalAnimales() {
+		return totalAnimales;
+	}
+
+	public static void setTotalAnimales(int totalAnimales) {
+		Animal.totalAnimales = totalAnimales;
+	}
 	
 	
 }
